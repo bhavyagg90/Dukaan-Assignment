@@ -159,7 +159,6 @@
 }
 
 .body {
-  background-color: yellow;
   width: 1216px;
   left: 224px;
 }
@@ -172,7 +171,6 @@
   border: 0px 0px 1px 0px;
   display: flex;
   align-items: center;
-  
 }
 
 .pmt_htu {
@@ -190,18 +188,18 @@
   height: 22px;
   font-size: 15px;
   font-weight: 400;
-  line-height: 22px;  
+  line-height: 22px;
   margin-right: 16px;
 }
 
-.htu_box{
+.htu_box {
   width: 94px;
   height: 16px;
   margin-top: 3px;
   display: flex;
 }
 
-.helpicon{
+.helpicon {
   /* position: absolute; */
   width: 14px;
   height: 14px;
@@ -216,80 +214,80 @@
   cursor: pointer;
 }
 
-.htutxt{
+.htutxt {
   /* position: absolute; */
   width: 74px;
   height: 16px;
-color: #1e2640;
-font-size: 12px;
-font-weight: 400;
-line-height: 16px;
-letter-spacing: 0em;
+  color: #1e2640;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
 }
 
-.searchbox{
+.searchbox {
   margin-left: 16px;
   width: 400px;
   height: 40px;
   border-radius: 3px;
-  background: #F2F2F2;
+  background: #f2f2f2;
   display: flex;
 }
 
-.searchicon{
+.searchicon {
   margin: 12px 6px 12px 12px;
   width: 16px;
   height: 16px;
   cursor: pointer;
 }
 
-.search{
+.search {
   border: none;
   width: 213px;
   height: 22px;
   margin-top: 8px;
 }
-#srch{
+#srch {
   width: 213px;
   height: 22px;
   border: none;
-  background: #F2F2F2;
+  background: #f2f2f2;
 }
 
-.social-icon-box{
+.social-icon-box {
   width: 360px;
-  height: 40px;  
+  height: 40px;
   margin-left: 28px;
 }
 
-.icon-comp{
+.icon-comp {
   width: 92px;
   height: 40px;
   margin-left: 268px;
   display: flex;
 }
 
-.icon-1{
+.icon-1 {
   width: 40px;
   height: 40px;
-  background: #E6E6E6;
-  border-radius: 50%;
-  display: flex;align-items: center;
-  justify-content: center;
-  cursor: pointer;
-}
-.icon-2{
-  width: 40px;
-  height: 40px;
-  margin-left: 12px;
-  background: #E6E6E6;
+  background: #e6e6e6;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-cursor: pointer;
+  cursor: pointer;
 }
-
+.icon-2 {
+  width: 40px;
+  height: 40px;
+  margin-left: 12px;
+  background: #e6e6e6;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
 
 .overview-body {
   display: flex;
@@ -298,92 +296,86 @@ cursor: pointer;
 }
 
 .overview {
-  background-color: blue;
   width: 1152px;
   height: 1354px;
   margin-top: 32px;
 }
 
-.overview-top{
+.overview-top {
   width: 1152px;
   height: 178px;
-  background-color: green;
 }
 
-.overview-top-head{
+.overview-top-head {
   width: 1152px;
   height: 36px;
-  
+
   display: flex;
   justify-content: space-between;
-
 }
 
-.headOvertxt{
+.headOvertxt {
   width: 91px;
   height: 28px;
-font-size: 20px;
-font-weight: 500;
-line-height: 28px;
-letter-spacing: 0em;
-text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
-.lastmonthbox{
+.lastmonthbox {
   width: 137px;
   height: 36px;
-
-  
-
 }
-.lastmonth-group{
+.lastmonth-group {
   display: flex;
   align-items: center;
   width: 137px;
   height: 36px;
   border-radius: 4px;
-  border: 1px solid gray;
+  border: 1px solid #d9d9d9;
 }
 
-.lastmnthtxt{
+.lastmnthtxt {
   width: 86px;
   height: 26px;
   margin-top: 6px;
   margin-left: 14px;
-
 }
 
-.order-amnt{
+.order-amnt {
   width: 1152px;
   height: 118px;
   display: flex;
   justify-content: space-between;
 }
 
-.order{
-width: 566px;
-height: 118px;
-
+.order {
+  width: 566px;
+  height: 118px;
+  border-radius: 4px;
+  border: 1px solid #1a181e0a;
 }
 
-.order-frame{
+.order-frame {
   width: 526px;
   height: 78px;
   margin: 20px;
 }
 
-.order-txt{
+.order-txt {
   width: 130px;
   height: 24px;
   font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0em;
-text-align: left;
-color: #4D4D4D;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4d4d4d;
 }
 
-.no{
+.no {
   width: 200px;
   height: 38px;
   margin-top: 20px;
@@ -392,39 +384,206 @@ color: #4D4D4D;
   line-height: 38px;
   letter-spacing: 0em;
   text-align: left;
-  color: #1A1b1E;
+  color: #1a1b1e;
 }
-.amount{
+.amount {
   width: 566px;
   height: 118px;
+  border-radius: 4px;
+  border: 1px solid #1a181e0a;
 }
 
-.amnt-frame{
+.amnt-frame {
   width: 526px;
   height: 78px;
   margin: 20px;
 }
 
-.list-box{
+.list-box {
   width: 152px;
   height: 1144px;
 }
 
-.trans-txt{
+.trans-txt {
   width: 249px;
   height: 28px;
-font-size: 20px;
-font-weight: 500;
-line-height: 28px;
-letter-spacing: 0em;
-text-align: left;
-color: #1A1b1E;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1a1b1e;
 }
 
-.template{
+.template {
   width: 1152px;
   height: 1096px;
   border-radius: 8px;
-  box-shadow: 0px 2px 6px 0px #1A181E0A;
+  box-shadow: 0px 2px 6px 0px #1a181e0a;
+}
 
+.search-col {
+  margin: 12px 12px 0px 12px;
+  width: 1128px;
+  height: 92px;
+}
+
+.search-sort {
+  width: 1128px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-box {
+
+  width: 248px;
+  height: 40px;
+  display: flex;
+
+  border-radius: 4px;
+  border: 1px solid #d9d9d9;
+}
+.search-icon {
+  margin-left: 12px;
+  margin-top: 13px;
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+}
+.seaarch {
+  margin: 10px 16px 10px 8px;
+  margin-left: 8px;
+  width: 194px;
+  height: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+#srcch {
+  width: 194px;
+  border: none;
+}
+
+.sort-box {
+  width: 127px;
+  height: 36px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sort {
+  width: 79px;
+  height: 36px;
+  display: flex;
+  border-radius: 4px;
+  border: 1px solid #d9d9d9;
+}
+
+.sort-txt {
+  width: 33px;
+  height: 24px;
+  margin: 6px 6px 6px 12px;
+}
+
+.sort-icon {
+  width: 16px;
+  height: 16px;
+  margin: 10px 12px 10px 0px;
+  cursor: pointer;
+}
+
+.downlaodicon {
+  width: 36px;
+  height: 36px;
+  border-radius: 4px;
+  border: 1px solid #d9d9d9;
+}
+
+.dwnicon {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  margin: 8px;
+}
+
+.col {
+  margin-top: 12px;
+  width: 1128px;
+  height: 40px;
+  border-radius: 4px;
+  background: #f2f2f2;
+  display: flex;
+  
+}
+
+.orderid-box {
+  width: 246px;
+  height: 20px;
+  margin: 10px 40px 10px 12px;
+}
+
+.teext {
+  width: 120px;
+  height: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.orderdate-box{
+  margin: 10px 40px 10px 0px ;
+  width: 246px;
+  height: 20px;
+}
+
+.text-icon{
+  
+  width: 84px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.trig-icon{
+  margin-top: -20px;
+  width: 8px;
+  height: 8px;
+  cursor: pointer;
+}
+.orderamnt-box{
+  width: 246px;
+  height: 20px;
+  margin: 10px 40px 10px 0px ;
+}
+
+.ammnt{
+  margin-left: 153px;
+}
+
+.trnctfee-box{
+  width: 246px;
+  height: 20px;
+  margin-top: 10px;
+}
+
+.text-iicon{
+  width: 130px;
+  height: 20px;
+  margin-left: 116px;
+  display: flex;
+}
+
+.tran-icon{
+  cursor: pointer;
+  width: 14px;
+  height: 14px;
 }
