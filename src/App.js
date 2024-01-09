@@ -7,7 +7,9 @@ const App = () => {
         <div className="side_bar">
           <div className="nav_top">
             <div className="company_icon">
-              <div className="img"></div>
+              <div className="img">
+                
+              </div>
               <div className="name">
                 <div className="company_name">Nishyan</div>
                 <div className="visit_store">Visit Store</div>
@@ -571,19 +573,113 @@ const App = () => {
                         </div>
                         <div className="orderamnt-box">
                           <div className="ammnt">
-                          <div className="teext">Order amount</div>
+                            <div className="teext">Order amount</div>
                           </div>
                         </div>
                         <div className="trnctfee-box">
                           <div className="text-iicon">
                             <div className="teext">Transaction fees</div>
                             <div className="tran-icon">
-                            <svg width="12.6" height="12.6" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M7.0002 1.63353C4.03627 1.63353 1.63353 4.03627 1.63353 7.0002C1.63353 9.96412 4.03627 12.3669 7.0002 12.3669C9.96412 12.3669 12.3669 9.96412 12.3669 7.0002C12.3669 4.03627 9.96412 1.63353 7.0002 1.63353ZM0.700195 7.0002C0.700195 3.5208 3.5208 0.700195 7.0002 0.700195C10.4796 0.700195 13.3002 3.5208 13.3002 7.0002C13.3002 10.4796 10.4796 13.3002 7.0002 13.3002C3.5208 13.3002 0.700195 10.4796 0.700195 7.0002Z" fill="#4D4D4D"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M7.00019 6.62382C7.25793 6.62382 7.46686 6.83276 7.46686 7.09049L7.46687 9.44604C7.46687 9.70377 7.25794 9.9127 7.00021 9.9127C6.74247 9.9127 6.53354 9.70377 6.53354 9.44604L6.53353 7.09049C6.53353 6.83276 6.74246 6.62382 7.00019 6.62382Z" fill="#4D4D4D"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M7.52801 4.75852C7.52801 5.05002 7.29171 5.28633 7.00021 5.28633C6.70871 5.28633 6.4724 5.05002 6.4724 4.75852C6.4724 4.46702 6.70871 4.23072 7.00021 4.23072C7.29171 4.23072 7.52801 4.46702 7.52801 4.75852Z" fill="#4D4D4D"/>
-</svg>
+                              <svg
+                                width="12.6"
+                                height="12.6"
+                                viewBox="0 0 14 14"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  fill-rule="evenodd"
+                                  clip-rule="evenodd"
+                                  d="M7.0002 1.63353C4.03627 1.63353 1.63353 4.03627 1.63353 7.0002C1.63353 9.96412 4.03627 12.3669 7.0002 12.3669C9.96412 12.3669 12.3669 9.96412 12.3669 7.0002C12.3669 4.03627 9.96412 1.63353 7.0002 1.63353ZM0.700195 7.0002C0.700195 3.5208 3.5208 0.700195 7.0002 0.700195C10.4796 0.700195 13.3002 3.5208 13.3002 7.0002C13.3002 10.4796 10.4796 13.3002 7.0002 13.3002C3.5208 13.3002 0.700195 10.4796 0.700195 7.0002Z"
+                                  fill="#4D4D4D"
+                                />
+                                <path
+                                  fill-rule="evenodd"
+                                  clip-rule="evenodd"
+                                  d="M7.00019 6.62382C7.25793 6.62382 7.46686 6.83276 7.46686 7.09049L7.46687 9.44604C7.46687 9.70377 7.25794 9.9127 7.00021 9.9127C6.74247 9.9127 6.53354 9.70377 6.53354 9.44604L6.53353 7.09049C6.53353 6.83276 6.74246 6.62382 7.00019 6.62382Z"
+                                  fill="#4D4D4D"
+                                />
+                                <path
+                                  fill-rule="evenodd"
+                                  clip-rule="evenodd"
+                                  d="M7.52801 4.75852C7.52801 5.05002 7.29171 5.28633 7.00021 5.28633C6.70871 5.28633 6.4724 5.05002 6.4724 4.75852C6.4724 4.46702 6.70871 4.23072 7.00021 4.23072C7.29171 4.23072 7.52801 4.46702 7.52801 4.75852Z"
+                                  fill="#4D4D4D"
+                                />
+                              </svg>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="data">
+                      {[...new Array(19)].map((_, index) => {
+                        return (
+                          <div key={index} className="row">
+                            <div className="id">#281209</div>
 
+                            <div className="date">7 July, 2023</div>
+
+                            <div className="amoount">₹1,278.23</div>
+
+                            <div className="fees">₹22</div>
+                          </div>
+                        );
+                      })}
+                    </div>
+                    <div className="pagination">
+                      <div className="pagination-box">
+                        <div className="pagination-group">
+                          <div className="prev-box">
+                            <div className="prev-icon">
+                              <svg
+                                width="6"
+                                id="isvg"
+                                height="10.5"
+                                viewBox="0 0 6 12"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  fill-rule="evenodd"
+                                  clip-rule="evenodd"
+                                  d="M5.78033 0.96967C5.48744 0.676777 5.01256 0.676777 4.71967 0.96967L0.21967 5.46967C0.0790172 5.61032 -9.53674e-07 5.80109 -9.53674e-07 6C-9.53674e-07 6.19891 0.0790172 6.38968 0.21967 6.53033L4.71967 11.0303C5.01256 11.3232 5.48744 11.3232 5.78033 11.0303C6.07322 10.7374 6.07322 10.2626 5.78033 9.96967L1.81066 6L5.78033 2.03033C6.07322 1.73744 6.07322 1.26256 5.78033 0.96967Z"
+                                  fill="#4D4D4D"
+                                />
+                              </svg>
+                            </div>
+                            <div className="prev-text">Previous</div>
+                          </div>
+                          <div className="count-box">
+                            <div className="one">1</div>
+                            <div className="dot">...</div>
+                            <div className="ten">10</div>
+                            <div className="eleven">11</div>
+                            <div className="twelve">12</div>
+                            <div className="thirteen">13</div>
+                            <div className="fourteen">14</div>
+                            <div className="fifteen">15</div>
+                            <div className="sixteen">16</div>
+                            <div className="seventeen">17</div>
+                            <div className="eighteen">18</div>
+                          </div>
+                          <div className="prev-box">
+                            <div className="next-text">Next</div>
+                            <div className="next-icon">
+                              <svg
+                                width="6"
+                                height="10.5"
+                                id="nsvg"
+                                viewBox="0 0 6 12"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  fill-rule="evenodd"
+                                  clip-rule="evenodd"
+                                  d="M0.21967 0.96967C0.512563 0.676777 0.987437 0.676777 1.28033 0.96967L5.78033 5.46967C5.92098 5.61032 6 5.80109 6 6C6 6.19891 5.92098 6.38968 5.78033 6.53033L1.28033 11.0303C0.987437 11.3232 0.512564 11.3232 0.21967 11.0303C-0.0732229 10.7374 -0.0732229 10.2626 0.21967 9.96967L4.18934 6L0.21967 2.03033C-0.0732233 1.73744 -0.0732233 1.26256 0.21967 0.96967Z"
+                                  fill="#4D4D4D"
+                                />
+                              </svg>
                             </div>
                           </div>
                         </div>
