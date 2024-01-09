@@ -313,5 +313,118 @@ cursor: pointer;
 .overview-top-head{
   width: 1152px;
   height: 36px;
-  background-color: pink;
+  
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.headOvertxt{
+  width: 91px;
+  height: 28px;
+font-size: 20px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.lastmonthbox{
+  width: 137px;
+  height: 36px;
+
+  
+
+}
+.lastmonth-group{
+  display: flex;
+  align-items: center;
+  width: 137px;
+  height: 36px;
+  border-radius: 4px;
+  border: 1px solid gray;
+}
+
+.lastmnthtxt{
+  width: 86px;
+  height: 26px;
+  margin-top: 6px;
+  margin-left: 14px;
+
+}
+
+.order-amnt{
+  width: 1152px;
+  height: 118px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.order{
+width: 566px;
+height: 118px;
+
+}
+
+.order-frame{
+  width: 526px;
+  height: 78px;
+  margin: 20px;
+}
+
+.order-txt{
+  width: 130px;
+  height: 24px;
+  font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #4D4D4D;
+}
+
+.no{
+  width: 200px;
+  height: 38px;
+  margin-top: 20px;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1A1b1E;
+}
+.amount{
+  width: 566px;
+  height: 118px;
+}
+
+.amnt-frame{
+  width: 526px;
+  height: 78px;
+  margin: 20px;
+}
+
+.list-box{
+  width: 152px;
+  height: 1144px;
+}
+
+.trans-txt{
+  width: 249px;
+  height: 28px;
+font-size: 20px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+color: #1A1b1E;
+}
+
+.template{
+  width: 1152px;
+  height: 1096px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px 0px #1A181E0A;
+
 }
