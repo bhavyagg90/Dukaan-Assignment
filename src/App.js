@@ -192,7 +192,7 @@ const App = () => {
                 </svg>
                 <p className="pages_text">Analytics</p>
               </div>
-              <div className="nav_pages_home">
+              <div className="nav_pages_home_pay">
                 <svg
                   width="20"
                   height="20"
